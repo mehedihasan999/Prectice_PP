@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar" id="home"> 
+      <div class="navbar-logo">
+        <a href="#home" title="Master Koder">MK</a>
+      </div>
+      <ul class="navbar-links" id="navbarLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="navbar-toggle" id="navbarToggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Rest of the page content -->
+
+  <section class="hero-section" id="about">
+    <div class="hero-content">
+      <h1>About Me</h1>
+      <p>I am a passionate programmer with expertise in various programming languages and web development.</p>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="container">
+      <h2>Skills and Experience</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>PHP</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="experience-section">
+    <div class="container">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <h3>Web Developer - ABC Company</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis tortor et elementum dapibus.</p>
+        </li>
+        <li>
+          <h3>Software Engineer - XYZ Corporation</h3>
+          <p>Curabitur tempus risus nec purus tincidunt, a hendrerit justo luctus.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- project card -->
+
+  <section class="projects-section" id="projects"> 
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <img src="https://img.freepik.com/free-vector/project-word-concept_23-2147844145.jpg" alt="Project 1">
+        <div class="project-content">
+          <h3>Project 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor tortor eget vestibulum feugiat.</p>
+          <a href="#" class="btn">View Details</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="https://img.freepik.com/vecteurs-libre/gens-affaires-isometrique-elements-pictogramme-infographique-pense-bulles-membres-equipe-bureau-vector-illustration_1284-30148.jpg?w=360" alt="Project 2">
+        <div class="project-content">
+          <h3>Project 2</h3>
+          <p>Curabitur fermentum, nunc id tincidunt aliquet, mauris neque iaculis est, sed consectetur purus sapien id justo.</p>
+          <a href="#" class="btn">View Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- contuct us -->
+
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- footer code html -->
+
+  <footer >
+    <div class="left-side">
+      <h1 title="Master Koder">
+        MK
+      </h1>
+    </div>
+    <div class="right-side">
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
